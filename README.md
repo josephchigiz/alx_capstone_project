@@ -42,7 +42,7 @@ I seek to make this easier by creating a portfolio that is as candid as possible
 - The design is very friendly, displaying a lot of character using colors, shapes and interesting design choices.  
 
 ## Technologies Used⛏️  
-- I have used some of the technologies I have learnt over the course of this program cumulatively to make this portfolio come alive.  
+- I have used some of the technologies I learnt over the course of this program cumulatively to make this portfolio come alive.  
 - These include:
     - HTML  
     - CSS  
@@ -50,7 +50,7 @@ I seek to make this easier by creating a portfolio that is as candid as possible
 - For design and prototyping, I used <a href="https://www.figma.com">Figma</a> and <a href="https://draw.io">Draw.io</a>  
 
 ## Demo🖼️  
-- Here are a few screenshots to demonstrate the design and fetures of my web portfolio:  
+- Here are a few screenshots to demonstrate the design and features of my web portfolio:  
 <img src="assets/demo-full.png" title="Full Page" alt="Full Page Screenshot">  
 <img src="assets/demo-home.png" title="Home Page" alt="Home Page Screenshot">  
 
@@ -71,4 +71,4 @@ Contact Me through:
 
 ___  
 # Acknowledgement🙏🏽  
-It has been a privilege to be part of this program with amazing peers and wonderful mentor. Thank you Cole, thank you Obed, thank you ALX. 🥂🎓
+It has been a privilege to be part of this program with amazing peers and wonderful mentors. Thank you Cole, thank you Obed, thank you <a href="https://www.alxafrica.com/" title="ALX Website">ALX</a>. 🥂🎓
