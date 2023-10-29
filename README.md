@@ -39,11 +39,11 @@ I seek to make this easier by creating a portfolio that is as candid as possible
     - HTML  
     - CSS  
     - JavaScript  
-- For design and prototyping, I used <a href="www.figma.com">Figma</a> and <a href="draw.io">Draw.io</a>  
+- For design and prototyping, I used <a href="https://www.figma.com">Figma</a> and <a href="https://draw.io">Draw.io</a>  
 
 ## Demo  
 - Here are a few screenshots to demonstrate the design and fetures of my web portfolio:  
 <img src="assets/demo-full.png" title="Full Page" alt="Full Page Screenshot">  
 <img src="assets/demo-home.png" title="Home Page" alt="Home Page Screenshot">  
 
-- I used pencil and paper to come up with the initial design, and then brought it to life in <a href="www.figma.com">Figma</a>.
+- I used pencil and paper to come up with the initial design, and then brought it to life in <a href="https://www.figma.com">Figma</a>.
