@@ -61,9 +61,7 @@ I seek to make this easier by creating a portfolio that is as candid as possible
 - I look forward to the opportunities to interact with clients and inspire designers and developers through my portfolio.  
 
 # Get In Touch🤙🏽  
-I am Joseph Ochego. 🤓
-Kenyan 🌍
-A Mechanical Engineer by profession. ⚙️
+I am Joseph Ochego,🤓 a Kenyan national🌍 and a Mechanical Engineer by profession.⚙️
 
 Contact Me through:   
     - Email: <a>ochegoatwork@gmail.com</a>📧  
