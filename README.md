@@ -16,9 +16,17 @@ The *grand finale* project.
 # Project Description📖
 As I come to the end of my ALX SE program, I am finishing it off with a ***capstone project*** where I will employ what I have learnt so far in terms of technologies, frameworks and tools.👨👨🏽‍💻  
 
-# Index📇
+# Index📇  
+- [Overview](#overview📜)  
+- [Features](#features🌟)  
+- [Technologies Used](#technologies-used⛏️)  
+- [Demo](#demo🖼️)  
+- [Roadmap](#roadmap🛣️)
+- [Contact Me](#get-in-touch🤙🏽)
+- [Acknowledgement](#acknowledgement🙏🏽)  
 
-## Overview  
+
+## Overview📜  
 - My capstone project is based on building my web development portfolio.  
 
 - My implementation of the portfolio is aimed at giving prospective clients a feel of what I create and an insight into who I am, what kind of person they will possibly be working with.  
@@ -28,12 +36,12 @@ I seek to make this easier by creating a portfolio that is as candid as possible
 
 - After looking at my portfolio, I want the client to be sure of whether I am the right person for their job, not confused, not unsure, but convinced. This saves them time.  
 
-## Features  
+## Features🌟  
 - My portfolio offers an easy to navigate layout.  
 - My skills, projects and contact info are readily available for any interested clients or visitors.  
 - The design is very friendly, displaying a lot of character using colors, shapes and interesting design choices.  
 
-## Technologies Used  
+## Technologies Used⛏️  
 - I have used some of the technologies I have learnt over the course of this program cumulatively to make this portfolio come alive.  
 - These include:
     - HTML  
@@ -41,9 +49,28 @@ I seek to make this easier by creating a portfolio that is as candid as possible
     - JavaScript  
 - For design and prototyping, I used <a href="https://www.figma.com">Figma</a> and <a href="https://draw.io">Draw.io</a>  
 
-## Demo  
+## Demo🖼️  
 - Here are a few screenshots to demonstrate the design and fetures of my web portfolio:  
 <img src="assets/demo-full.png" title="Full Page" alt="Full Page Screenshot">  
 <img src="assets/demo-home.png" title="Home Page" alt="Home Page Screenshot">  
 
-- I used pencil and paper to come up with the initial design, and then brought it to life in <a href="https://www.figma.com">Figma</a>.
+- I used pencil and paper to come up with the initial design, and then brought it to life in <a href="https://www.figma.com">Figma</a>.  
+
+## Roadmap🛣️  
+- I will keep polishing my web dev portfolio and keep it up-to-date in terms of design, information and achievements.  
+- I look forward to the opportunities to interact with clients and inspire designers and developers through my portfolio.  
+
+# Get In Touch🤙🏽  
+I am Joseph Ochego. 🤓
+Kenyan 🌍
+A Mechanical Engineer by profession. ⚙️
+
+Contact Me through:   
+    - Email: <a>ochegoatwork@gmail.com</a>📧  
+    - <a href="https://www.linkedin.com/in/joseph-ochego-7ab83b1b2" title="linkedin">LinkedIn</a>🔗  
+    - <a href="https://twitter.com/i_am_ochego" title="Twitter">Twitter</a>✖️  
+    - <a href="https://www.instagram.com/joe__graphic" title="Instagram">Instagram</a>📷  
+
+___  
+# Acknowledgement🙏🏽  
+It has been a privilege to be part of this program with amazing peers and wonderful mentor. Thank you ALX. 🥂🎓
