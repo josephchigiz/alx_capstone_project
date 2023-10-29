@@ -73,4 +73,4 @@ Contact Me through:
 
 ___  
 # Acknowledgement🙏🏽  
-It has been a privilege to be part of this program with amazing peers and wonderful mentor. Thank you ALX. 🥂🎓
+It has been a privilege to be part of this program with amazing peers and wonderful mentor. Thank you Cole, thank you Obed, thank you ALX. 🥂🎓
