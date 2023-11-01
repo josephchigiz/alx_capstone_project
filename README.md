@@ -56,6 +56,8 @@ I seek to make this easier by creating a portfolio that is as candid as possible
 
 - I used pencil and paper to come up with the initial design, and then brought it to life in <a href="https://www.figma.com">Figma</a>.  
 
+- Keep track of <a href="http://htmlpreview.github.io/?https://github.com/josephchigiz/alx_capstone_project/blob/master/index.html">real-time development</a> and see it come to live.
+
 ## Roadmap🛣️  
 - I will keep polishing my web dev portfolio and keep it up-to-date in terms of design, information and achievements.  
 - I look forward to the opportunities to interact with clients and inspire designers and developers through my portfolio.  
