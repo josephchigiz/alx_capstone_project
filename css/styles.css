@@ -1,0 +1,148 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*! SECTION1 */
+#section1 {
+    background-image: url("../assets/images/bg-home.png");
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+.nav-pane {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+.nav-links {
+    padding: 20px;
+    font-weight: 300;
+}
+
+.contact-div {
+    padding-right: 15px;
+}
+
+.contact {
+    background-color: rgba(255, 255, 255, 0.52);
+    border: 1.8px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    padding: 5px;
+}
+
+/* Homepage */
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding-top: 100px;
+    /* padding-bottom: 150px; */ 
+}
+
+.self-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.self-intro-text {
+    color: white;
+    font-weight: 300;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 300px;
+}
+
+/*! SECTION2 */
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about {
+    font-size: 32px;
+    padding: 20px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;;
+}
+
+.about-pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.pictures {
+    max-width: 330px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.about-text-div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-text {
+    font-size: 16px;
+    max-width: 800px;
+    padding: 10px;
+}
