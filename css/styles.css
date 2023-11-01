@@ -82,6 +82,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
+    /* height: 100vh; */
     padding-top: 120px;
     padding-bottom: 150px; 
 }
@@ -200,6 +201,7 @@ header {
 #section4 {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .projects {
@@ -211,6 +213,8 @@ header {
 .my-projects {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    /* height: 100%; */
 }
 
 .my-projects img {
@@ -227,16 +231,11 @@ header {
     margin-top: 0;
 }
 
-.first-two {
+.all-projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 6px;
 }
 
-/* .second-two {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 6px;
-} */
+
