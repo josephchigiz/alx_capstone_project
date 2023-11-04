@@ -40,12 +40,32 @@ ul {
 
 /* Header */
 
-header {
+#header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
 }
+
+/* Adding a Sticky bar */
+
+.sticky {
+    /* background-color: white; */
+    /* height: 50px; */
+    background-color: rgba(59, 63, 51, 0.89);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.sticky a {
+    
+} 
+
+/* End of sticky bar */
 
 .nav-logo {
     color: white;
