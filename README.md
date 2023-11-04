@@ -11,7 +11,7 @@ vi) Contact Info
 
 # Capstone Project!🏁  
 The *grand finale* project.  
-<img src="assets/finish-line1.png" title="Capstone Project" alt="Hello" width="500" height="300">
+<img src="assets/images/finish-line1.png" title="Capstone Project" alt="Hello" width="500" height="300">
 
 # Project Description📖
 As I come to the end of my ALX SE program, I am finishing it off with a ***capstone project*** where I will employ what I have learnt so far in terms of technologies, frameworks and tools.👨👨🏽‍💻  
@@ -51,12 +51,12 @@ I seek to make this easier by creating a portfolio that is as candid as possible
 
 ## Demo🖼️  
 - Here are a few screenshots to demonstrate the design and features of my web portfolio:  
-<img src="assets/demo-full.png" title="Full Page" alt="Full Page Screenshot">  
-<img src="assets/demo-home.png" title="Home Page" alt="Home Page Screenshot">  
+<img src="assets/images/demo-full.png" title="Full Page" alt="Full Page Screenshot">  
+<img src="assets/images/demo-home.png" title="Home Page" alt="Home Page Screenshot">  
 
 - I used pencil and paper to come up with the initial design, and then brought it to life in <a href="https://www.figma.com">Figma</a>.  
 
-- Keep track of <a href="http://htmlpreview.github.io/?https://github.com/josephchigiz/alx_capstone_project/blob/master/index.html">real-time development</a> and see it come to live.
+- Keep track of <a href="https://htmlpreview.github.io/?https://github.com/josephchigiz/alx_capstone_project/blob/master/index.html">real-time development</a> and see it come to live.
 
 ## Roadmap🛣️  
 - I will keep polishing my web dev portfolio and keep it up-to-date in terms of design, information and achievements.  
