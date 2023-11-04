@@ -30,8 +30,12 @@ ul {
 }
 
 /*! SECTION1 */
-#section1 {
-    background-image: url("../assets/images/bg-home.png");
+#home {
+    background-image: url("../assets/images/bg-smoothblur.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 /* Header */
@@ -56,9 +60,10 @@ header {
 
 .nav {
     display: flex;
+    margin: 10px;
 }
 .nav-links {
-    padding: 20px;
+    padding: 20px 26px;
     font-weight: 300;
 }
 
@@ -76,14 +81,14 @@ header {
 }
 
 /* Homepage */
-.homepage {
+.main-home {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
     min-height: 100vh;
-    /* padding-top: 120px;
-    padding-bottom: 150px;  */
+    /* padding-top: 20px; */
+    /* padding-bottom: 150px;  */ 
 }
 
 .self-intro {
@@ -105,14 +110,14 @@ header {
 
 /*! SECTION2 */
 
-#section2 {
+#about {
     display: flex;
     flex-direction: column;
     text-align: center;
     min-height: 100vh;
 }
 
-.about {
+.about-head {
     font-size: 32px;
     padding: 5px;
 }
@@ -150,14 +155,14 @@ header {
 }
 
 /*! SKILLS */
-#section3 {
+#skills {
     display: flex;
     flex-direction: column;
     background-color: rgba(217, 226, 183, 1);
     min-height: 100vh;
 }
 
-.skills {
+.skills-head {
     text-align: center;
     font-size: 32px;
     padding: 5px;
@@ -199,13 +204,13 @@ header {
 }
 
 /*! SECTION4 */
-#section4 {
+#projects {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.projects {
+.projects-head {
     text-align: center;
     font-size: 32px;
     padding: 5px;
@@ -401,10 +406,17 @@ input:hover {
 .social-links {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.all-socials {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .joseph-cp,
 .github,
+.linkedin,
 .twitter,
 .instagram {
     display: flex;
@@ -420,11 +432,12 @@ input:hover {
 
 .joseph-cp p {
     color: black;
-    margin-bottom: 4px;
+    /* margin-bottom: 4px; */
     font-weight: 600;
 }
 
 .github p,
+.linkedin p,
 .twitter p,
 .instagram p {
     color: black;
@@ -434,10 +447,12 @@ input:hover {
 
 .joseph-cp img,
 .github img,
+.linkedin img,
 .twitter img,
 .instagram img {
     max-width: 30px;
     max-height: 30px;
+    padding: 0 4px;
 }
 
 .footnote {
@@ -448,11 +463,30 @@ input:hover {
 
 .footnote-text {
     color: black;
+    /* font-weight: 500; */
 }
 
 .nav-links-foot p {
     color: black;
     font-size: 14px;
+    /* font-style: italic; */
     text-align: right;
 }
 
+.mail-links p {
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+.license {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3px 10px;
+    /* background-color: rgb(230, 236, 205); */
+}
+
+.license-text {
+    font-size: 14px;
+}
