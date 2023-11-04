@@ -215,6 +215,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 70vh;
+    /* align-items: center; */
 }
 
 .my-projects img {
@@ -240,8 +242,8 @@ header {
 
 /*! SECTION5 */
 #contact {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     background-color: rgba(217, 226, 183, 1);
     min-height: 100vh;
 }
@@ -256,7 +258,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 .contact-form {
@@ -274,15 +276,18 @@ header {
 
 .top-form input {
     border: none;
-    min-height: 30px;
+    min-height: 40px;
     border-radius: 5px;
-    min-width: 300px ;
+    min-width: 400px ;
     margin-bottom: 10px;
+    padding: 4px;
+    font-size: 14px;
 }
 
 .top-form label {
-    color: rgba(54, 54, 54, 0.4);
+    color: rgba(54, 54, 54, 0.5);
     font-size: 15px;
+    font-weight: 400;
     margin-bottom: -3px;
 }
 
@@ -290,7 +295,33 @@ header {
     border: none;
     border-radius: 5px;
     width: 100%;
-    padding: 0%;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+textarea:focus, 
+input:focus {
+    outline: none;
+    box-shadow: 6px 6px 6px rgb(151, 165, 100);
+}
+
+textarea:hover,
+input:hover {
+    box-shadow: 6px 6px 6px rgb(151, 165, 100);
+}
+
+.top-form textarea::placeholder {
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+    font-size: 14px;
+    max-width: 280px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: rgba(54, 54, 54, 0.438);
+    padding: 15%;
 }
 
 .linkedin {
@@ -325,16 +356,89 @@ header {
 
 .submit {
     display: flex;
+    align-items: center;
+    justify-content: center;
     min-width: 300px;
 }
 
-.submit button {
-    color: rgba(0, 0, 0, 0.623);
-    font-size: 14px;
-    font-weight: bold;
-    border: 2px solid rgb(125, 143, 65);
-    border-radius: 4px;
-    padding: 5px 10px;
-    margin: 10px;
-    margin-left: 0px;
+.submit button:hover {
+    background-color: rgb(160, 180, 94);
+    color: white;
+    box-shadow: 6px 6px 6px rgb(124, 139, 69);
 }
+
+.submit button:active {
+    transform: scale(1.1);
+}
+
+.submit button {
+    color: rgba(255, 255, 255, 0.863);
+    background-color: rgb(179, 197, 120);
+    font-size: 15px;
+    font-weight: bold;
+    /* border: 2px solid rgb(125, 143, 65); */
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 15px;
+    /* margin-left: 0px; */
+}
+
+/*! FOOTER */
+#footer {
+    /* min-height: 100vh; */
+    color: black;
+}
+
+.footer-elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.joseph-cp,
+.github,
+.twitter,
+.instagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.copy-pic {
+    width: 15px;
+    height: 15px;
+} 
+
+.joseph-cp p {
+    color: black;
+}
+
+.github p,
+.twitter p,
+.instagram p {
+    color: black;
+}
+
+.joseph-cp img,
+.github img,
+.twitter img,
+.instagram img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.footnote-text {
+    color: black;
+}
+
+.nav-links-foot p {
+    color: black;
+}
+
