@@ -497,7 +497,7 @@ input:hover {
     max-height: 50px;
 }
 
-.submit {
+/* .submit {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -530,7 +530,46 @@ input:hover {
     border-radius: 8px;
     padding: 8px 20px;
     margin: 15px;
+} */
+
+/* ******************* SUBMIT *******************/
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    transition: all 0.2s ease-in-out;
 }
+
+.submit input {
+    transition: all 0.2s ease-in-out;
+}
+
+.submit input:hover {
+    background-color: rgb(160, 180, 94);
+    color: white;
+    box-shadow: 6px 6px 6px rgb(124, 139, 69);
+    cursor: pointer;
+}
+
+.submit input:active {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.submit input {
+    color: rgba(255, 255, 255, 0.863);
+    background-color: rgb(179, 197, 120);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 15px;
+}
+
+/* ******************* SUBMIT *******************/
 
 /*! FOOTER */
 #footer {

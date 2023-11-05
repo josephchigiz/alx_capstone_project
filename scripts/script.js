@@ -1,26 +1,7 @@
-// const navbar = document.querySelector("header");
-
-// function stickyNavbar() {
-//     if (window.scrollY > 0) {    
-//         navbar.classList.add('sticky');
-//     } else {
-//         navbar.classList.remove('sticky');    
-//     }
-
-//     if (window.scrollY === 0) {
-//         navbar.classList.remove('sticky');
-//     }
-// }
+// *  JS Script for my web portfolio
 
 
-// window.addEventListener('scroll', stickyNavbar);
-
-
-// window.addEventListener("scroll", () => {
-//     const header = document.querySelector("header");
-//     header.classList.toggle("sticky", window.scrollY > 0);
-// });
-
+// *** Sticky Bar ***//
 const navbar = document.querySelector("header");
 let scrolling = false; //This will track scrolling
 
@@ -44,3 +25,17 @@ function stickyNavbar() {
 }
 
 window.addEventListener('scroll', stickyNavbar);
+
+
+// *** email validation *** //
+function emailValidation(userInput) {
+    var mailFormat =  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (userInput.value.match(mailFormat)) {
+        document.contact-form.email.focus();
+        return true;
+    } else {
+        alert("You have entered an invalid email address!");
+        document.contact-form.email.focus();
+        return false;
+    }
+}
