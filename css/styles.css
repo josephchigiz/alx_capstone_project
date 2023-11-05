@@ -166,7 +166,8 @@ header.sticky {
     justify-content: space-evenly;
     align-items: center;
     height: 100vh;
-    margin-top: calc(var(--hamburger-height) + var(--hamburger-margin) - 50px);
+    width: 50%;
+    /* margin-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 5px); */
     background-color: rgba(0, 0, 0, 0.4);
 }
 
