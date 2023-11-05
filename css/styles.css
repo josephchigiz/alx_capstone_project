@@ -89,6 +89,11 @@ header.sticky {
 .nav-links {
     padding: 20px 26px;
     font-weight: 300;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links:hover {
+    transform: scale(1.1);
 }
 
 /********************* MEDIA QUERIES ***************/
@@ -204,6 +209,13 @@ header.sticky {
     color: white;
     font-weight: 400;
     padding: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact1:hover,
+.contact2:hover {
+    box-shadow: 8px 8px 10px rgba(48, 48, 42, 0.849);
+    transform: scale(1.1);
 }
 
 .contact2 {
@@ -213,6 +225,7 @@ header.sticky {
     color: white;
     font-weight: 400;
     padding: 5px;
+    transition: all 0.2s ease-in-out;
 }
 
 
