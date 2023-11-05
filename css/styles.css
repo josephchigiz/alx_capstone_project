@@ -31,11 +31,13 @@ ul {
 
 /*! SECTION1 */
 #home {
-    background-image: url("../assets/images/bg-smoothblur.jpg");
+    background-image: url(../assets/images/bg-smoothblur.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 /* Header */
