@@ -383,8 +383,8 @@ header.sticky {
 }
 
 .my-projects img {
-    max-width: 300px;
-    max-height: 280px;
+    /* max-width: 300px;
+    max-height: 280px; */
     margin-bottom: -10px;
     border-radius: 10px;
 }
@@ -399,7 +399,7 @@ header.sticky {
 .all-projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 6px;
 }
 
