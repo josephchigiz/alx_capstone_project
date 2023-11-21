@@ -1,6 +1,5 @@
 // *  JS Script for my web portfolio
 
-
 // *** Sticky Bar ***//
 const navbar = document.querySelector("header");
 let scrolling = false; //This will track scrolling
@@ -11,7 +10,7 @@ function stickyNavbar() {
         scrolling = true;
 
         //flag is set to true if scrolling is detected
-        //hence removes sticky bar after a certain period of inacticity
+        //hence removes sticky bar after a certain period of inactivity
 
         setTimeout(() => {
             if (!scrolling) {
@@ -42,24 +41,23 @@ function emailValidation(userInput) {
 
 
 // *** email-js *** //
-// Using email js to handle form submissions directly to my email
-// (function() {
-//     // https://dashboard.emailjs.com/admin/account
-//     emailjs.init('aI7QUWYpkLZMaCxeG');
-// })();
+const btn = document.getElementById('button');
 
+document.getElementById('contact-form')
+    .addEventListener('submit', function(event) {
+    event.preventDefault();
 
-// window.onload = function() {
-//     document.getElementById('contact-form').addEventListener('submit', function(event) {
-//         event.preventDefault();
-//         // generate a five digit number for the contact_number variable
-//         this.contact_number.value = Math.random() * 100000 | 0;
-//         // these IDs from the previous steps
-//         emailjs.sendForm('contact_service', 'contact_form', this)
-//             .then(function() {
-//                 console.log('SUCCESS!');
-//             }, function(error) {
-//                 console.log('FAILED...', error);
-//             });
-//     });
-// }
+    btn.value = 'Sending...';
+
+    const serviceID = 'default_service';
+    const templateID = 'template_im542yk';
+
+    emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+        btn.value = 'Send Email';
+        alert('Sent Successfully!');
+    }, (err) => {
+        btn.value = 'Send Email';
+        alert(JSON.stringify(err));
+    });
+});
